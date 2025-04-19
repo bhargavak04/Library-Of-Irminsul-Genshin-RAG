@@ -1,0 +1,4 @@
+gen/
+.env
+genshin_vector_db/
+env/

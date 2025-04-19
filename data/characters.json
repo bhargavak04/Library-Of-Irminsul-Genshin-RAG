@@ -1,0 +1,2016 @@
+[
+  {
+    "result": {
+      "id": 1,
+      "name": "Amber",
+      "title": [
+        "Gliding Champion",
+        "Outrider"
+      ],
+      "rarity": "4_star",
+      "weapon": "Bow",
+      "vision": "Pyro",
+      "model_type": "Medium female",
+      "birthday": "August 10th",
+      "constellation": "Lepus",
+      "region": [
+        "Mondstadt"
+      ],
+      "affiliation": [
+        "Knights of Favonius"
+      ],
+      "special_dish": "Outrider's Champion",
+      "how_to_obtain": [
+        "Complete Winds of the Past",
+        "Wanderlust Invocation (wish)",
+        "Paimon's Bargains"
+      ],
+      "release_day": "2020-09-27T22:00:00.000Z",
+      "release_version": "v1.0",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Kelly Baskin",
+          "Chinese": "Shujin Cai (蔡书瑾)",
+          "Japanese": "Manaka Iwami (石見舞菜香)",
+          "Korean": "Kim Yeon-woo (김연우)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Amber"
+    }
+  },
+  {
+    "result": {
+      "id": 2,
+      "name": "Barbara",
+      "title": [
+        "Shining Idol",
+        "Deaconess"
+      ],
+      "real_name": "Barbara Pegg",
+      "rarity": "4_star",
+      "weapon": "Catalyst",
+      "vision": "Hydro",
+      "model_type": "Medium female",
+      "birthday": "July 5th",
+      "constellation": "Crater",
+      "region": [
+        "Mondstadt"
+      ],
+      "affiliation": [
+        "Church of Favonius"
+      ],
+      "special_dish": "Spicy Stew",
+      "how_to_obtain": [
+        "Wishes",
+        "Baptism of Song",
+        "Paimon's Bargains"
+      ],
+      "release_day": "2020-09-27T22:00:00.000Z",
+      "release_version": "v1.0",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Laura Stahl",
+          "Chinese": "Yuanyuan Song (宋媛媛)",
+          "Japanese": "Akari Kitō (鬼頭明里)",
+          "Korean": "Yun Ah-yeong (윤아영)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Barbara"
+    }
+  },
+  {
+    "result": {
+      "id": 3,
+      "name": "Beidou",
+      "title": [
+        "Uncrowned Lord of the Ocean",
+        "Queen of the Crux Fleet"
+      ],
+      "rarity": "4_star",
+      "weapon": "Claymore",
+      "vision": "Electro",
+      "model_type": "Tall female",
+      "birthday": "February 14th",
+      "constellation": "Victor Mare",
+      "region": [
+        "Liyue"
+      ],
+      "affiliation": [
+        "The Crux"
+      ],
+      "special_dish": "Flash-Fried Filet",
+      "how_to_obtain": [
+        "Wishes",
+        "Paimon's Bargains"
+      ],
+      "release_day": "2020-09-27T22:00:00.000Z",
+      "release_version": "v1.0",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Allegra Clark",
+          "Chinese": "Yajing Tang (唐雅菁)",
+          "Japanese": "Ami Koshimizu (小清水亜美)",
+          "Korean": "Jeong Yoo-mi (정유미)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Beidou"
+    }
+  },
+  {
+    "result": {
+      "id": 4,
+      "name": "Bennett",
+      "title": [
+        "Trial by Fire",
+        "Leader of Benny's Adventure Team"
+      ],
+      "rarity": "4_star",
+      "weapon": "Sword",
+      "vision": "Pyro",
+      "model_type": "Medium male",
+      "birthday": "February 29th",
+      "constellation": "Rota Calamitas",
+      "region": [
+        "Mondstadt"
+      ],
+      "affiliation": [
+        "Adventurers' Guild",
+        "Benny's Adventure Team"
+      ],
+      "special_dish": "Teyvat Charred Egg",
+      "how_to_obtain": [
+        "Wishes",
+        "Paimon's Bargains"
+      ],
+      "release_day": "2020-09-27T22:00:00.000Z",
+      "release_version": "v1.0",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Cristina Vee Valenzuela",
+          "Chinese": "Xueting Mu (穆雪婷)",
+          "Japanese": "Ryōta Ōsaka (逢坂良太)",
+          "Korean": "Song Ha-rim (송하림)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Bennett"
+    }
+  },
+  {
+    "result": {
+      "id": 5,
+      "name": "Chongyun",
+      "title": [
+        "Frozen Ardor",
+        "Banisher of Evil and Rumors Thereof"
+      ],
+      "rarity": "4_star",
+      "weapon": "Claymore",
+      "vision": "Cryo",
+      "model_type": "Medium male",
+      "birthday": "September 7th",
+      "constellation": "Nubis Caesor",
+      "region": [
+        "Liyue"
+      ],
+      "affiliation": [
+        "Tianheng Thaumaturges"
+      ],
+      "special_dish": "Cold Noodles with Mountain Delicacies",
+      "how_to_obtain": [
+        "Wishess"
+      ],
+      "release_day": "2020-09-27T22:00:00.000Z",
+      "release_version": "v1.0",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Beau Bridgland",
+          "Chinese": "kinsen",
+          "Japanese": "Soma Saito (斉藤壮馬)",
+          "Korean": "Yang Jeong-hwa (양정화)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Chongyun"
+    }
+  },
+  {
+    "result": {
+      "id": 6,
+      "name": "Fischl",
+      "title": [
+        "Prinzessin der Verurteilung!",
+        "Sovereign of Immernachtreich"
+      ],
+      "real_name": "Amy",
+      "rarity": "4_star",
+      "weapon": "Bow",
+      "vision": "Electro",
+      "model_type": "Medium female",
+      "birthday": "May 27th",
+      "constellation": "Corvus",
+      "region": [
+        "Mondstadt"
+      ],
+      "affiliation": [
+        "Adventurers' Guild"
+      ],
+      "special_dish": "Die Heilige Sinfonie",
+      "how_to_obtain": [
+        "Wishes",
+        "Paimon's Bargains"
+      ],
+      "release_day": "2020-09-27T22:00:00.000Z",
+      "release_version": "v1.0",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Brittany Cox, Oz: Ben Pronsky",
+          "Chinese": "Mace, Oz: Zhao Yuecheng (赵悦程)",
+          "Japanese": "Maaya Uchida (内田真礼), Oz: Yasunori Masutani (増谷康紀)",
+          "Korean": "Park Go-woon (박고운), Oz:  Lee Hyun (이현)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Fischl"
+    }
+  },
+  {
+    "result": {
+      "id": 7,
+      "name": "Kaeya",
+      "title": [
+        "Frostwind Swordsman",
+        "Quartermaster of the Knights"
+      ],
+      "real_name": "Kaeya Alberich",
+      "rarity": "4_star",
+      "weapon": "Sword",
+      "vision": "Cryo",
+      "model_type": "Tall male",
+      "birthday": "November 30th",
+      "constellation": "Pavo Ocellus",
+      "region": [
+        "Mondstadt",
+        "Khaenri'ah"
+      ],
+      "affiliation": [
+        "Knights of Favonius"
+      ],
+      "special_dish": "Fruity Skewers",
+      "how_to_obtain": [
+        "Complete Crash Course",
+        "Wishes",
+        "Paimon's Bargains"
+      ],
+      "release_day": "2020-09-27T22:00:00.000Z",
+      "release_version": "v1.0",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Josey Montana McCoy",
+          "Chinese": "Ye Sun (孙晔)",
+          "Japanese": "Kohsuke Toriumi (鳥海浩輔)",
+          "Korean": "Jeong Joo-won (정주원)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Kaeya"
+    }
+  },
+  {
+    "result": {
+      "id": 8,
+      "name": "Lisa",
+      "title": [
+        "Witch of Purple Rose",
+        "The Librarian"
+      ],
+      "real_name": "Lisa Minci",
+      "rarity": "4_star",
+      "weapon": "Catalyst",
+      "vision": "Electro",
+      "model_type": "Tall female",
+      "birthday": "June 9th",
+      "constellation": "Tempus Fugit",
+      "region": [
+        "Mondstadt"
+      ],
+      "affiliation": [
+        "Knights of Favonius",
+        "Sumeru Academia (formerly)"
+      ],
+      "special_dish": "Mysterious Bolognese",
+      "how_to_obtain": [
+        "Complete Sparks Amongst the Pages",
+        "Wishes",
+        "Paimon's Bargains"
+      ],
+      "release_day": "2020-09-27T22:00:00.000Z",
+      "release_version": "v1.0",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Mara Junot",
+          "Chinese": "Ke Zhong (钟可)",
+          "Japanese": "Rie Tanaka (田中理恵)",
+          "Korean": "Park Go-woon (박고운)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Lisa"
+    }
+  },
+  {
+    "result": {
+      "id": 9,
+      "name": "Ningguang",
+      "title": [
+        "Eclipsing Star",
+        "Lady of the Jade Chamber"
+      ],
+      "rarity": "4_star",
+      "weapon": "Catalyst",
+      "vision": "Geo",
+      "model_type": "Tall female",
+      "birthday": "August 26th",
+      "constellation": "Opus Aequilibrium",
+      "region": [
+        "Liyue"
+      ],
+      "affiliation": [
+        "Liyue Qixing"
+      ],
+      "special_dish": "Qiankun Mora Meat",
+      "how_to_obtain": [
+        "Wishes",
+        "Paimon's Bargains"
+      ],
+      "release_day": "2020-09-27T22:00:00.000Z",
+      "release_version": "v1.0",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Erin Ebers",
+          "Chinese": "Mingya Du (杜冥鸦)",
+          "Japanese": "Sayaka Ohara (大原さやか)",
+          "Korean": "Gwak Gyu-mi (곽규미)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Ningguang"
+    }
+  },
+  {
+    "result": {
+      "id": 10,
+      "name": "Noelle",
+      "title": [
+        "Chivalric Blossom",
+        "Maid of Favonius"
+      ],
+      "rarity": "4_star",
+      "weapon": "Claymore",
+      "vision": "Geo",
+      "model_type": "Medium female",
+      "birthday": "March 21st",
+      "constellation": "Parma Cordis",
+      "region": [
+        "Mondstadt"
+      ],
+      "affiliation": [
+        "Knights of Favonius"
+      ],
+      "special_dish": "Lighter-Than-Air ",
+      "how_to_obtain": [
+        "Wishes",
+        "Paimon's Bargains"
+      ],
+      "release_day": "2020-09-27T22:00:00.000Z",
+      "release_version": "v1.0",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Laura Faye Smith",
+          "Chinese": "Yanning (宴宁)",
+          "Japanese": "Kanon Takao (高尾奏音)",
+          "Korean": "Lee Bo-hee (이보희)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Noelle"
+    }
+  },
+  {
+    "result": {
+      "id": 11,
+      "name": "Razor",
+      "title": [
+        "Wolf Boy",
+        "Legend of Wolvendom"
+      ],
+      "rarity": "4_star",
+      "weapon": "Claymore",
+      "vision": "Electro",
+      "model_type": "Medium male",
+      "birthday": "September 9th",
+      "constellation": "Lupus Minor",
+      "region": [
+        "Mondstadt"
+      ],
+      "affiliation": [
+        "Wolvendom (Andrius)"
+      ],
+      "special_dish": "Puppy-Paw Hash Brown",
+      "how_to_obtain": [
+        "Wishes",
+        "Paimon's Bargains"
+      ],
+      "release_day": "2020-09-27T22:00:00.000Z",
+      "release_version": "v1.0",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Todd Haberkorn",
+          "Chinese": " Shuai Zhou (周帅)",
+          "Japanese": "Kōki Uchiyama (内山昂輝)",
+          "Korean": "Kim Seo-yeong (김서영)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Razor"
+    }
+  },
+  {
+    "result": {
+      "id": 12,
+      "name": "Sucrose",
+      "title": [
+        "Harmless Sweetie",
+        "Knights of Favonius Alchemist"
+      ],
+      "rarity": "4_star",
+      "weapon": "Catalyst",
+      "vision": "Anemo",
+      "model_type": "Medium female",
+      "birthday": "November 26th",
+      "constellation": "Ampulla",
+      "region": [
+        "Mondstadt"
+      ],
+      "affiliation": [
+        "Knights of Favonius"
+      ],
+      "special_dish": "Nutritious Meal (V.593)",
+      "how_to_obtain": [
+        "Wishes"
+      ],
+      "release_day": "2020-09-27T22:00:00.000Z",
+      "release_version": "v1.0",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Valeria Rodriguez",
+          "Chinese": "Xiaogan (小敢)",
+          "Japanese": "Akane Fujita (藤田茜)",
+          "Korean": "Kim Ha-yeong (김하영)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Sucrose"
+    }
+  },
+  {
+    "result": {
+      "id": 13,
+      "name": "Xiangling",
+      "title": [
+        "Exquisite Delicacy",
+        "Chef de Cuisine"
+      ],
+      "real_name": "Mao Xiangling",
+      "rarity": "4_star",
+      "weapon": "Polearm",
+      "vision": "Pyro",
+      "model_type": "Medium female",
+      "birthday": "November 2nd",
+      "constellation": "Trulla",
+      "region": [
+        "Liyue"
+      ],
+      "affiliation": [
+        "Wanmin Restaurant",
+        "Crux Fleet"
+      ],
+      "special_dish": "Wanmin Restaurant's Boiled Fish",
+      "how_to_obtain": [
+        "Wishes",
+        "Spiral Abyss Event - People's Choice",
+        "Paimon's Bargains"
+      ],
+      "release_day": "2020-09-27T22:00:00.000Z",
+      "release_version": "v1.0",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Jackie Lastra",
+          "Chinese": "Xiaogan (小敢)",
+          "Japanese": "Ari Ozawa (小澤亜李)",
+          "Korean": "Yun A-yeong (윤아영)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Xiangling"
+    }
+  },
+  {
+    "result": {
+      "id": 14,
+      "name": "Xingqiu",
+      "title": [
+        "Juvenile Galant",
+        "Guhua Guru of Feiyun Fame"
+      ],
+      "rarity": "4_star",
+      "weapon": "Sword",
+      "vision": "Hydro",
+      "model_type": "Medium male",
+      "birthday": "October 9th",
+      "constellation": "Fabulae Textile",
+      "region": [
+        "Liyue"
+      ],
+      "affiliation": [
+        "Feiyun Commerce Guild",
+        "Guhua Clan"
+      ],
+      "special_dish": "All-Delicacy Parcels",
+      "how_to_obtain": [
+        "Wishes",
+        "Paimon's Bargains"
+      ],
+      "release_day": "2020-09-27T22:00:00.000Z",
+      "release_version": "v1.0",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Cristina Vee Valenzuela",
+          "Chinese": "Yajing Tang (唐雅菁)",
+          "Japanese": "Junko Minagawa (皆川純子)",
+          "Korean": "Gwak Gyu-mi (곽규미)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Xingqiu"
+    }
+  },
+  {
+    "result": {
+      "id": 15,
+      "name": "Diluc",
+      "title": [
+        "The Dark Side of Dawn",
+        "Master of the Dawn Winery"
+      ],
+      "real_name": "Diluc Ragnvindr",
+      "rarity": "5_star",
+      "weapon": "Claymore",
+      "vision": "Pyro",
+      "model_type": "Tall male",
+      "birthday": "April 30th",
+      "constellation": "Noctua",
+      "region": [
+        "Mondstadt"
+      ],
+      "affiliation": [
+        "Dawn Winery",
+        "Unnamed intelligence organization",
+        "Knights of Favonius (Formerly)"
+      ],
+      "special_dish": "\"Once Upon a Time in Mondstadt\"",
+      "how_to_obtain": [
+        "Wishes"
+      ],
+      "release_day": "2020-09-27T22:00:00.000Z",
+      "release_version": "v1.0",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Sean Chiplock",
+          "Chinese": "Yang Ma (马洋)",
+          "Japanese": "Kensho Ono (小野賢章)",
+          "Korean": "Choi Seung-hoon (최승훈)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Diluc"
+    }
+  },
+  {
+    "result": {
+      "id": 16,
+      "name": "Jean",
+      "title": [
+        "Dandelion Knight",
+        "Acting Grand Master"
+      ],
+      "real_name": "Jean Gunnhildr",
+      "rarity": "5_star",
+      "weapon": "Sword",
+      "vision": "Anemo",
+      "model_type": "Tall female",
+      "birthday": "March 14th",
+      "constellation": "Leo Minor",
+      "region": [
+        "Mondstadt"
+      ],
+      "affiliation": [
+        "Knights of Favonius",
+        "Four Winds",
+        "Gunnhildr Clan"
+      ],
+      "special_dish": "Invigorating Pizza Invigorating Pizza",
+      "how_to_obtain": [
+        "Wishes"
+      ],
+      "release_day": "2020-09-27T22:00:00.000Z",
+      "release_version": "v1.0",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Stephanie Southerland",
+          "Chinese": "Su Lin (林簌)",
+          "Japanese": "Chiwa Saitō (斎藤千和)",
+          "Korean": "Ahn Young-mi (안영미)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Jean"
+    }
+  },
+  {
+    "result": {
+      "id": 17,
+      "name": "Mona",
+      "title": [
+        "Astral Reflection",
+        "Enigmatic Astrologer"
+      ],
+      "real_name": "Astrologist Mona Megistus",
+      "rarity": "5_star",
+      "weapon": "Catalyst",
+      "vision": "Hydro",
+      "model_type": "Medium female",
+      "birthday": "August 31st",
+      "constellation": "Astrolabos",
+      "region": [
+        "Mondstadt"
+      ],
+      "affiliation": [
+        "Hexenzirkel",
+        "The Steambird"
+      ],
+      "special_dish": "Der Weisheit Letzter Schluss (Life)",
+      "how_to_obtain": [
+        "Wishes"
+      ],
+      "release_day": "2020-09-27T22:00:00.000Z",
+      "release_version": "v1.0",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Felecia Angelle",
+          "Chinese": "Tingting Chen (陈婷婷)",
+          "Japanese": "Konomi Kohara (小原好美)",
+          "Korean": "Woo Jeong-sin (우정신)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Mona"
+    }
+  },
+  {
+    "result": {
+      "id": 18,
+      "name": "Keqing",
+      "title": [
+        "Driving Thunder",
+        "Yuheng of the Liyue Qixing"
+      ],
+      "rarity": "5_star",
+      "weapon": "Sword",
+      "vision": "Electro",
+      "model_type": "Medium female",
+      "birthday": "November 20th",
+      "constellation": "Trulla Cementarii",
+      "region": [
+        "Liyue"
+      ],
+      "affiliation": [
+        "Liyue Qixing"
+      ],
+      "special_dish": "Survival Grilled Fish",
+      "how_to_obtain": [
+        "Wishes"
+      ],
+      "release_day": "2020-09-27T22:00:00.000Z",
+      "release_version": "v1.0",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Kayli Mills",
+          "Chinese": "Ying Xie (谢莹)",
+          "Japanese": "Eri Kitamura (喜多村英梨)",
+          "Korean": "Lee Bo-hee (이보희)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Keqing"
+    }
+  },
+  {
+    "result": {
+      "id": 19,
+      "name": "Qiqi",
+      "title": [
+        "Icy Resurrection",
+        "Pharmacist, Bubu Pharmacy"
+      ],
+      "rarity": "5_star",
+      "weapon": "Sword",
+      "vision": "Cryo",
+      "model_type": "Short female",
+      "birthday": "March 3rd",
+      "constellation": "Pristina Nola",
+      "region": [
+        "Liyue"
+      ],
+      "affiliation": [
+        "Bubu Pharmacy",
+        "Adepti"
+      ],
+      "special_dish": "No Tomorrow",
+      "how_to_obtain": [
+        "Wishes"
+      ],
+      "release_day": "2020-09-27T22:00:00.000Z",
+      "release_version": "v1.0",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Christie Cate",
+          "Chinese": "Yanning (宴宁)",
+          "Japanese": "Yukari Tamura (田村ゆかり)",
+          "Korean": "Lee Seul (이슬)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Qiqi"
+    }
+  },
+  {
+    "result": {
+      "id": 20,
+      "name": "Traveller (male)",
+      "title": [
+        "Outlander"
+      ],
+      "real_name": "Aether",
+      "rarity": "5_star",
+      "weapon": "Sword",
+      "vision": "None",
+      "model_type": "Medium male",
+      "birthday": "Player's Choice",
+      "constellation": "Viator",
+      "region": [
+        "Unknown"
+      ],
+      "affiliation": [],
+      "how_to_obtain": [
+        "Player's choice"
+      ],
+      "release_day": "2020-09-27T22:00:00.000Z",
+      "release_version": "v1.0",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Zach Aguilar",
+          "Chinese": "Luyin (鹿喑)",
+          "Japanese": "Shun Horie (堀江瞬)",
+          "Korean": "Lee Kyung-tae (이경태)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Traveler"
+    }
+  },
+  {
+    "result": {
+      "id": 21,
+      "name": "Traveller (female)",
+      "title": [
+        "Outlander"
+      ],
+      "real_name": "Lumine",
+      "rarity": "5_star",
+      "weapon": "Sword",
+      "vision": "None",
+      "model_type": "Medium female",
+      "birthday": "Player's Choice",
+      "constellation": "Viatrix",
+      "region": [
+        "Unknown"
+      ],
+      "affiliation": [],
+      "how_to_obtain": [
+        "Player's choice"
+      ],
+      "release_day": "2020-09-27T22:00:00.000Z",
+      "release_version": "v1.0",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Sarah Miller-Crews",
+          "Chinese": "Yanning (宴宁)",
+          "Japanese": "Aoi Yūki (悠木碧)",
+          "Korean": "Lee Sae-a (이새아)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Traveler"
+    }
+  },
+  {
+    "result": {
+      "id": 22,
+      "name": "Venti",
+      "title": [
+        "Windborne Bard",
+        "Singer of Skyward Sonnets"
+      ],
+      "rarity": "5_star",
+      "weapon": "Bow",
+      "vision": "Anemo",
+      "model_type": "Medium male",
+      "birthday": "June 16th",
+      "constellation": "Fabulae Textile",
+      "region": [
+        "Mondstadt"
+      ],
+      "affiliation": [
+        "City of Mondstadt",
+        "Archons"
+      ],
+      "special_dish": "A Buoyant Breeze",
+      "how_to_obtain": [
+        "Event Wish - Ballad in Goblets"
+      ],
+      "release_day": "2020-09-27T22:00:00.000Z",
+      "release_version": "v1.0",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Erika Harlacher",
+          "Chinese": "Miaojiang (喵酱)",
+          "Japanese": "Ayumu Murase (村瀬歩)",
+          "Korean": "Jung Yoo-jung (정유정)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Venti"
+    }
+  },
+  {
+    "result": {
+      "id": 23,
+      "name": "Klee",
+      "title": [
+        "Fleeing Sunlight",
+        "Spark Knight"
+      ],
+      "rarity": "5_star",
+      "weapon": "Catalyst",
+      "vision": "Pyro",
+      "model_type": "Short female",
+      "birthday": "July 27th",
+      "constellation": "Trifolium",
+      "region": [
+        "Mondstadt"
+      ],
+      "affiliation": [
+        "Knights of Favonius"
+      ],
+      "special_dish": "Fish-Flavored Toast",
+      "how_to_obtain": [
+        "Event Wish - Sparkling Steps"
+      ],
+      "release_day": "2020-10-20T00:00:00.000Z",
+      "release_version": "v1.0",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Poonam Basu",
+          "Chinese": "Hualing (花玲)",
+          "Japanese": "Misaki Kuno (久野美咲)",
+          "Korean": "Bang Yeon-ji (방연지)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Klee"
+    }
+  },
+  {
+    "result": {
+      "id": 24,
+      "name": "Xinyan",
+      "title": [
+        "Blazing Riff",
+        "Liyue's sole rock 'n' roll musician"
+      ],
+      "rarity": "4_star",
+      "weapon": "Claymore",
+      "vision": "Pyro",
+      "model_type": "Medium female",
+      "birthday": "October 16th",
+      "constellation": "Fila Ignium",
+      "region": [
+        "Liyue"
+      ],
+      "affiliation": [
+        "The Red Strings"
+      ],
+      "special_dish": "Rockin' Riffin' Chicken!",
+      "how_to_obtain": [
+        "Wishes"
+      ],
+      "release_day": "2020-11-30T23:00:00.000Z",
+      "release_version": "v1.1",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Laura Stah",
+          "Chinese": "Yaxin Wang (王雅欣)",
+          "Japanese": "Chiaki Takahashi (たかはし智秋)",
+          "Korean": "Kim Chae-ha (김채하)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Xinyan"
+    }
+  },
+  {
+    "result": {
+      "id": 25,
+      "name": "Zhongli",
+      "title": [
+        "Vago Mundo",
+        "Wangsheng Funeral Parlor Consultant"
+      ],
+      "rarity": "5_star",
+      "weapon": "Polearm",
+      "vision": "Geo",
+      "model_type": "Tall male",
+      "birthday": "December 31st",
+      "constellation": "Lapis Dei",
+      "region": [
+        "Liyue"
+      ],
+      "affiliation": [
+        "Liyue Harbor",
+        "Wangsheng Funeral Parlor",
+        "Archons",
+        "Adepti"
+      ],
+      "special_dish": "Slow-Cooked Bamboo Shoot Soup",
+      "how_to_obtain": [
+        "Event Wish - Gentry of Hermitage"
+      ],
+      "release_day": "2020-11-30T23:00:00.000Z",
+      "release_version": "v1.1",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": " Keith Silverstein",
+          "Chinese": "Bo Peng (彭博)",
+          "Japanese": "Tomoaki Maeno (前野智昭)",
+          "Korean": "Pyo Yeong-jae (표영재)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Zhongli"
+    }
+  },
+  {
+    "result": {
+      "id": 26,
+      "name": "Diona",
+      "title": [
+        "Kätzlein Cocktail",
+        "Popular bartender of the Cat's Tail"
+      ],
+      "real_name": "Diona Kätzlein",
+      "rarity": "4_star",
+      "weapon": "Bow",
+      "vision": "Cryo",
+      "model_type": "Short female",
+      "birthday": "January 18th",
+      "constellation": "Feles",
+      "region": [
+        "Mondstadt"
+      ],
+      "affiliation": [
+        "The Cat's Tail",
+        "Kätzlein Bloodline"
+      ],
+      "special_dish": "Definitely Not Bar Food!",
+      "how_to_obtain": [
+        "Wishes"
+      ],
+      "release_day": "2020-11-11T00:00:00.000Z",
+      "release_version": "v1.1",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Dina Sherman",
+          "Chinese": "Nuoya (诺亚)",
+          "Japanese": "Shiori Izawa (井澤詩織)",
+          "Korean": "Woo Jeong-sin (우정신)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Diona"
+    }
+  },
+  {
+    "result": {
+      "id": 27,
+      "name": "Tartaglia",
+      "title": [
+        "Childe",
+        "Eleventh of the Fatui Harbingers"
+      ],
+      "real_name": "Ajax",
+      "rarity": "5_star",
+      "weapon": "Bow",
+      "vision": "Hydro",
+      "model_type": "Tall male",
+      "birthday": "July 20th",
+      "constellation": "Monoceros Caeli",
+      "region": [
+        "Snezhnaya"
+      ],
+      "affiliation": [
+        "Fatui",
+        "Eleven Fatui Harbingers"
+      ],
+      "special_dish": "A Prize Catch",
+      "how_to_obtain": [
+        "Event Wish - Farewell of Snezhnaya"
+      ],
+      "release_day": "2020-11-11T00:00:00.000Z",
+      "release_version": "v1.1",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Griffin Burns",
+          "Chinese": "Yudong (鱼冻)",
+          "Japanese": "Ryohei Kimura (木村良平)",
+          "Korean": " Nam Doh-hyeong (남도형)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Tartaglia"
+    }
+  },
+  {
+    "result": {
+      "id": 28,
+      "name": "Ganyu",
+      "title": [
+        "Plenilune Gaze",
+        "Secretary, Yuehai Pavilion"
+      ],
+      "rarity": "5_star",
+      "weapon": "Bow",
+      "vision": "Cryo",
+      "model_type": "Medium female",
+      "birthday": "December 2nd",
+      "constellation": "Sinae Unicornis",
+      "region": [
+        "Liyue"
+      ],
+      "affiliation": [
+        "Yuehai Pavilion",
+        "Liyue Qixing Employees",
+        "Adepti"
+      ],
+      "special_dish": "Prosperous Peace",
+      "how_to_obtain": [
+        "Event Wish - Adrift in the Harbor"
+      ],
+      "release_day": "2021-01-11T23:00:00.000Z",
+      "release_version": "v1.2",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Jennifer Losi",
+          "Chinese": "Su Lin (林簌)",
+          "Japanese": "Reina Ueda (上田麗奈)",
+          "Korean": "Kim Sun-hye (김선혜)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Ganyu"
+    }
+  },
+  {
+    "result": {
+      "id": 29,
+      "name": "Albedo",
+      "title": [
+        "Kreideprinz",
+        "Chief Alchemist of the Knights of Favonius"
+      ],
+      "real_name": "Albedo Kreideprinz",
+      "rarity": "5_star",
+      "weapon": "Sword",
+      "vision": "Geo",
+      "model_type": "Medium male",
+      "birthday": "September 13th",
+      "constellation": "Princeps Cretaceus",
+      "region": [
+        "Mondstadt"
+      ],
+      "affiliation": [
+        "Knights of Favonius"
+      ],
+      "special_dish": "Woodland Dream",
+      "how_to_obtain": [
+        "Event Wish - Secretum Secretorum"
+      ],
+      "release_day": "2020-12-23T00:00:00.000Z",
+      "release_version": "v1.2",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Khoi Dao",
+          "Chinese": "Mace",
+          "Japanese": "Kenji Nojima (野島健児)",
+          "Korean": "Kim Myung-jun (김명준)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Albedo"
+    }
+  },
+  {
+    "result": {
+      "id": 30,
+      "name": "Hu Tao",
+      "title": [
+        "Fragrance in Thaw",
+        "77th-Generation Director of the Wangsheng Funeral Parlor",
+        "Liyue Harbor's 'Versemonger of the Darkest Alleys'"
+      ],
+      "rarity": "5_star",
+      "weapon": "Polearm",
+      "vision": "Pyro",
+      "model_type": "Medium male",
+      "birthday": "July 15th",
+      "constellation": "Papilio Charontis",
+      "region": [
+        "Liyue"
+      ],
+      "affiliation": [
+        "Wangsheng Funeral Parlor",
+        "Hu Family"
+      ],
+      "special_dish": "Ghostly March",
+      "how_to_obtain": [
+        "Event Wish - Moment of Bloom"
+      ],
+      "release_day": "2021-03-01T23:00:00.000Z",
+      "release_version": "v1.3",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Brianna Knickerbocker",
+          "Chinese": "Dian Tao (陶典)",
+          "Japanese": "Rie Takahashi (高橋李依)",
+          "Korean": "Kim Ha-ru (김하루)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Hu_Tao"
+    }
+  },
+  {
+    "result": {
+      "id": 31,
+      "name": "Xiao",
+      "title": [
+        "Vigilant Yaksha",
+        "Bane of All Evil"
+      ],
+      "rarity": "5_star",
+      "weapon": "Polearm",
+      "vision": "Anemo",
+      "model_type": "Medium male",
+      "birthday": "April 17th",
+      "constellation": "Alatus Nemeseos",
+      "region": [
+        "Liyue"
+      ],
+      "affiliation": [
+        "Adepti",
+        "Yakshas"
+      ],
+      "special_dish": "Sweet Dream",
+      "how_to_obtain": [
+        "Event Wish - Invitation to Mundane Life"
+      ],
+      "release_day": "2021-02-02T23:00:00.000Z",
+      "release_version": "v1.3",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Laila Berzins",
+          "Chinese": "kinsen",
+          "Japanese": "Yoshitsugu Matsuoka (松岡禎丞)",
+          "Korean": "Sim Kyu-hyuk (심규혁)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Xiao"
+    }
+  },
+  {
+    "result": {
+      "id": 32,
+      "name": "Rosaria",
+      "title": [
+        "Thorny Benevolence",
+        "A Nonconforming Sister"
+      ],
+      "rarity": "4_star",
+      "weapon": "Polearm",
+      "vision": "Cryo",
+      "model_type": "Tall female",
+      "birthday": "January 24th",
+      "constellation": "Spinea Corona",
+      "region": [
+        "Mondstadt"
+      ],
+      "affiliation": [
+        "Church of Favonius"
+      ],
+      "special_dish": "Dinner of Judgment",
+      "how_to_obtain": [
+        "Wishes"
+      ],
+      "release_day": "2021-04-05T22:00:00.000Z",
+      "release_version": "v1.4",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Elizabeth Maxwell",
+          "Chinese": "Anqi Zhang (张安琪)",
+          "Japanese": "Ai Kakuma (加隈亜衣)",
+          "Korean": "Kim Bo-na (김보나)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Rosaria"
+    }
+  },
+  {
+    "result": {
+      "id": 33,
+      "name": "Eula",
+      "title": [
+        "Dance of the Shimmering Wave",
+        "Spindrift Knight",
+        "Captain of the Knights of Favonius Reconnaissance Company"
+      ],
+      "real_name": "Eula Lawrence",
+      "rarity": "5_star",
+      "weapon": "Claymore",
+      "vision": "Cryo",
+      "model_type": "Tall female",
+      "birthday": "October 25th",
+      "constellation": "Aphros Delos",
+      "region": [
+        "Mondstadt"
+      ],
+      "affiliation": [
+        "Knights of Favonius, Lawrence Clan"
+      ],
+      "special_dish": "Stormcrest Pie",
+      "how_to_obtain": [
+        "Event Wish - Born of Ocean Swell"
+      ],
+      "release_day": "2021-05-17T22:00:00.000Z",
+      "release_version": "v1.5",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Suzie Yeung",
+          "Chinese": "Ziyin (子音)",
+          "Japanese": "Rina Sato (佐藤利奈)",
+          "Korean": "Kim Hyeon-ji (김현지)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Eula"
+    }
+  },
+  {
+    "result": {
+      "id": 34,
+      "name": "Yanfei",
+      "title": [
+        "Wise Innocence",
+        "Liyue Harbor's famed legal adviser"
+      ],
+      "rarity": "4_star",
+      "weapon": "Catalyst",
+      "vision": "Pyro",
+      "model_type": "Medium female",
+      "birthday": "July 28th",
+      "constellation": "Bestia Iustitia",
+      "region": [
+        "Liyue"
+      ],
+      "affiliation": [
+        "Yanfei Legal Consultancy",
+        "Adepti"
+      ],
+      "special_dish": "My Way",
+      "how_to_obtain": [
+        "Wishes"
+      ],
+      "release_day": "2021-04-27T22:00:00.000Z",
+      "release_version": "v1.5",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Lizzie Freeman",
+          "Chinese": "Ziwu Su (苏子芜)",
+          "Japanese": "Yumiri Hanamori (花守 ゆみり)",
+          "Korean": "Cho Kyung-yi (조경이)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Yanfei"
+    }
+  },
+  {
+    "result": {
+      "id": 35,
+      "name": "Kazuha",
+      "title": [
+        "Scarlet Leaves Pursue Wild Waves",
+        "A wandering samurai who has left his homeland"
+      ],
+      "real_name": "Kaedehara Kazuha",
+      "rarity": "5_star",
+      "weapon": "Sword",
+      "vision": "Anemo",
+      "model_type": "Medium male",
+      "birthday": "October 29th",
+      "constellation": "Acer Palmatum",
+      "region": [
+        "Inazuma"
+      ],
+      "affiliation": [
+        "The Crux",
+        "Kaedehara Clan",
+        "Watatsumi Army (Formerly)"
+      ],
+      "special_dish": "All-Weather Beauty",
+      "how_to_obtain": [
+        "Event Wish - Leaves in the Wind"
+      ],
+      "release_day": "2021-06-28T22:00:00.000Z",
+      "release_version": "v1.6",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Mark Whitten",
+          "Chinese": "Banma (斑马)",
+          "Japanese": "Nobunaga Shimazaki (島崎 信長)",
+          "Korean": "Kim Shin-woo (김신우)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Kaedehara_Kazuha"
+    }
+  },
+  {
+    "result": {
+      "id": 36,
+      "name": "Ayaka",
+      "title": [
+        "Frostflake Heron",
+        "Daughter of the Yashiro Commission's Kamisato Clan"
+      ],
+      "real_name": "Kamisato Ayaka",
+      "rarity": "5_star",
+      "weapon": "Sword",
+      "vision": "Cryo",
+      "model_type": "Medium female",
+      "birthday": "September 28th",
+      "constellation": "Grus Nivis",
+      "region": [
+        "Inazuma"
+      ],
+      "affiliation": [
+        "Yashiro Commission",
+        "Kamisato Clan"
+      ],
+      "special_dish": "\"Snow on the Hearth\"",
+      "how_to_obtain": [
+        "Event Wish - The Heron's Court"
+      ],
+      "release_day": "2021-06-20T22:00:00.000Z",
+      "release_version": "v2.0",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Erica Mendez",
+          "Chinese": "Xiao N (小N)",
+          "Japanese": "Saori Hayami (早見沙織)",
+          "Korean": "Lee Yu-ri (이유리)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Kamisato_Ayaka"
+    }
+  },
+  {
+    "result": {
+      "id": 37,
+      "name": "Sayu",
+      "title": [
+        "Mujina Ninja",
+        "Shuumatsuban's Resident Ninja"
+      ],
+      "rarity": "4_star",
+      "weapon": "Claymore",
+      "vision": "Anemo",
+      "model_type": "Short female",
+      "birthday": "October 19th",
+      "constellation": "Nyctereutes Minor",
+      "region": [
+        "Inazuma"
+      ],
+      "affiliation": [
+        "Shuumatsuban"
+      ],
+      "special_dish": "Dizziness-Be-Gone no Jutsu Version 2.0",
+      "how_to_obtain": [
+        "Wishes"
+      ],
+      "release_day": "2021-08-09T22:00:00.000Z",
+      "release_version": "v2.0",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Lilypichu (Lily Ki)",
+          "Chinese": "Sakula小舞",
+          "Japanese": "Aya Suzaki (洲崎綾)",
+          "Korean": "Lee Ji-hyeon (이지현)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Sayu"
+    }
+  },
+  {
+    "result": {
+      "id": 38,
+      "name": "Yoimiya",
+      "title": [
+        "Frolicking Flames",
+        "Owner of Naganohara Fireworks"
+      ],
+      "real_name": "Naganohara Yoimiya",
+      "rarity": "5_star",
+      "weapon": "Bow",
+      "vision": "Pyro",
+      "model_type": "Medium female",
+      "birthday": "June 21st",
+      "constellation": "Carassius Auratus",
+      "region": [
+        "Inazuma"
+      ],
+      "affiliation": [
+        "Naganohara Fireworks"
+      ],
+      "special_dish": "Summer Festival Fish",
+      "how_to_obtain": [
+        "Event Wish - Tapestry of Golden Flames"
+      ],
+      "release_day": "2021-08-09T22:00:00.000Z",
+      "release_version": "v2.0",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Jenny Yokobori",
+          "Chinese": "Na Jin (金娜)",
+          "Japanese": "Kana Ueda (植田佳奈)",
+          "Korean": "Bak Sin-hee (박신희)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Yoimiya"
+    }
+  },
+  {
+    "result": {
+      "id": 39,
+      "name": "Sara",
+      "title": [
+        "Crowfeather Kaburaya",
+        "General of the Tenryou Commission"
+      ],
+      "real_name": "Kujou Sara",
+      "rarity": "4_star",
+      "weapon": "Bow",
+      "vision": "Electro",
+      "model_type": "Tall female",
+      "birthday": "July 14th",
+      "constellation": "Flabellum",
+      "region": [
+        "Inazuma"
+      ],
+      "affiliation": [
+        "Tenryou Commission",
+        "Tengou",
+        "Yokai"
+      ],
+      "special_dish": "Faith Eternal",
+      "how_to_obtain": [
+        "Wishes"
+      ],
+      "release_day": "2021-08-31T22:00:00.000Z",
+      "release_version": "v2.1",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Jeannie Tirado",
+          "Chinese": "Yang Menglu (杨梦露)",
+          "Japanese": "Asami Seto (瀬戸麻沙美)",
+          "Korean": "Mun Ji-yeong (문지영)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Kujou_Sara"
+    }
+  },
+  {
+    "result": {
+      "id": 40,
+      "name": "Raiden Shogun",
+      "title": [
+        "Plane of Euthymia",
+        "Her Eternal Excellency"
+      ],
+      "real_name": "Raiden Ei",
+      "rarity": "5_star",
+      "weapon": "Polearm",
+      "vision": "Electro",
+      "model_type": "Tall female",
+      "birthday": "June 26th",
+      "constellation": "Imperatrix Umbrosa",
+      "region": [
+        "Inazuma"
+      ],
+      "affiliation": [
+        "Inazuma City",
+        "Inazuma Shogunate",
+        "Archons"
+      ],
+      "how_to_obtain": [
+        "Event Wish - Reign of Serenity"
+      ],
+      "release_day": "2021-08-31T22:00:00.000Z",
+      "release_version": "v2.1",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Anne Yatco",
+          "Chinese": "Juhuahua (菊花花)",
+          "Japanese": "Miyuki Sawashiro (沢城みゆき)",
+          "Korean": "Park Ji-yoon (박지윤)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Raiden_Shogun"
+    }
+  },
+  {
+    "result": {
+      "id": 41,
+      "name": "Kokomi",
+      "title": [
+        "Pearl of Wisdom",
+        "Hibernating Homebody Strategist"
+      ],
+      "real_name": "Sangonomiya Kokomi",
+      "rarity": "5_star",
+      "weapon": "Catalyst",
+      "vision": "Hydro",
+      "model_type": "Medium female",
+      "birthday": "February 22nd",
+      "constellation": "Dracaena Somnolenta",
+      "region": [
+        "Inazuma"
+      ],
+      "affiliation": [
+        "Watatsumi Island",
+        "Sangonomiya Clan",
+        "Watatsumi Army"
+      ],
+      "special_dish": "A Stunning Stratagem",
+      "how_to_obtain": [
+        "Event Wish - Drifting Luminescence"
+      ],
+      "release_day": "2021-09-20T22:00:00.000Z",
+      "release_version": "v2.1",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Risa Mei",
+          "Chinese": "Guiniang (龟娘)",
+          "Japanese": "Suzuko Mimori (三森すずこ)",
+          "Korean": "Yeo Yun-mi (여윤미)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Sangonomiya_Kokomi"
+    }
+  },
+  {
+    "result": {
+      "id": 42,
+      "name": "Thoma",
+      "title": [
+        "Protector From Afar",
+        "The Kamisato Clan's Housekeeper"
+      ],
+      "rarity": "4_star",
+      "weapon": "Polearm",
+      "vision": "Pyro",
+      "model_type": "Tall male",
+      "birthday": "January 9th",
+      "constellation": "Rubeum Scutum",
+      "region": [
+        "Inazuma"
+      ],
+      "affiliation": [
+        "Yashiro Commissiony",
+        "Kamisato Clan"
+      ],
+      "special_dish": "\"Warmth\"",
+      "how_to_obtain": [
+        "Wishes"
+      ],
+      "release_day": "2021-11-01T23:00:00.000Z",
+      "release_version": "v2.2",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Christian Banas",
+          "Chinese": "Pei Zhang (张沛)",
+          "Japanese": "Masakazu Morita (森田成一)",
+          "Korean": "Ryu Seung-gon (류승곤)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Thoma"
+    }
+  },
+  {
+    "result": {
+      "id": 43,
+      "name": "Gorou",
+      "title": [
+        "Canine Warrior",
+        "General of the Watatsumi Army"
+      ],
+      "rarity": "4_star",
+      "weapon": "Bow",
+      "vision": "Geo",
+      "model_type": "Medium male",
+      "birthday": "May 18th",
+      "constellation": "Canis Bellatoris",
+      "region": [
+        "Inazuma"
+      ],
+      "affiliation": [
+        "Watatsumi Island",
+        "Watatsumi Army"
+      ],
+      "special_dish": "Victorious Legend",
+      "how_to_obtain": [
+        "Wishes"
+      ],
+      "release_day": "2021-12-14T00:00:00.000Z",
+      "release_version": "v2.3",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Cory Yee",
+          "Chinese": "Yang Xinran (杨昕燃)",
+          "Japanese": "Tasuku Hatanaka (畠中 祐)",
+          "Korean": "Lee Sae-byeok (이새벽)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Gorou"
+    }
+  },
+  {
+    "result": {
+      "id": 44,
+      "name": "Itto",
+      "title": [
+        "Hanamizaka Heroics",
+        "The First and Greatest Head of the Arataki Gang"
+      ],
+      "real_name": "Arataki Itto",
+      "rarity": "5_star",
+      "weapon": "Claymore",
+      "vision": "Geo",
+      "model_type": "Tall male",
+      "birthday": "June 1st",
+      "constellation": "Taurus Iracundus",
+      "region": [
+        "Inazuma"
+      ],
+      "affiliation": [
+        "Arataki Gang",
+        "Oni",
+        "Youkai"
+      ],
+      "special_dish": "Way of the Strong",
+      "how_to_obtain": [
+        "Event Wish - Oni's Royale"
+      ],
+      "release_day": "2021-12-14T00:00:00.000Z",
+      "release_version": "v2.3",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Max Mittelman",
+          "Chinese": "Zhaokun Liu (刘照坤)",
+          "Japanese": "Takanori Nishikawa (西川貴教)",
+          "Korean": "Song Joon-seok (송준석)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Arataki_Itto"
+    }
+  },
+  {
+    "result": {
+      "id": 45,
+      "name": "Yun Jin",
+      "title": [
+        "Stage Lucida",
+        "Current Director of Yun-Han Opera Troupe"
+      ],
+      "rarity": "4_star",
+      "weapon": "Polearm",
+      "vision": "Geo",
+      "model_type": "Medium female",
+      "birthday": "May 21st",
+      "constellation": "Opera Grandis",
+      "region": [
+        "Liyue"
+      ],
+      "affiliation": [
+        "Yun-Han Opera Troupe",
+        "Heyu Tea House",
+        "Yun Family"
+      ],
+      "special_dish": "Cloud-Shrouded Jade",
+      "how_to_obtain": [
+        "Wishes"
+      ],
+      "release_day": "2022-01-04T23:00:00.000Z",
+      "release_version": "v2.4",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Judy Alice Lee, Yang Yang (杨扬)",
+          "Chinese": "Wenxiao He (贺文潇), Yang Yang (杨扬)",
+          "Japanese": "Koiwai Kotori (小岩井ことり), Yang Yang (杨扬)",
+          "Korean": "Sa Mun-yeong (사문영), Yang Yang (杨扬)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Yun_Jin"
+    }
+  },
+  {
+    "result": {
+      "id": 46,
+      "name": "Shenhe",
+      "title": [
+        "Lonesome Transcendence",
+        "Ethereal Soul Amidst the Mortal Realm"
+      ],
+      "rarity": "5_star",
+      "weapon": "Polearm",
+      "vision": "Cryo",
+      "model_type": "Tall female",
+      "birthday": "March 10th",
+      "constellation": "Crista Doloris",
+      "region": [
+        "Liyue"
+      ],
+      "affiliation": [
+        "Cloud Retainer's Abode"
+      ],
+      "special_dish": "Heartstring Noodles",
+      "how_to_obtain": [
+        "Event Wish - The Transcendent One Returns"
+      ],
+      "release_day": "2022-01-04T23:00:00.000Z",
+      "release_version": "v2.4",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Chelsea Kwoka",
+          "Chinese": "Ziyi Qin(秦紫翼)",
+          "Japanese": "Ayako Kawasumi (川澄綾子)",
+          "Korean": "Lee Hyun-jin (이현진)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Shenhe"
+    }
+  },
+  {
+    "result": {
+      "id": 47,
+      "name": "Yae",
+      "title": [
+        "Astute Amusement",
+        "Guuji of the Grand Narukami Shrine"
+      ],
+      "real_name": "Yae Miko",
+      "rarity": "5_star",
+      "weapon": "Catalyst",
+      "vision": "Electro",
+      "model_type": "Tall female",
+      "birthday": "June 27th",
+      "constellation": "Divina Vulpes",
+      "region": [
+        "Inazuma"
+      ],
+      "affiliation": [
+        "Grand Narukami Shrine",
+        "Yae Publishing House",
+        "Youkai"
+      ],
+      "special_dish": "Fukuuchi Udon",
+      "how_to_obtain": [
+        "Event Wish - Everbloom Violet"
+      ],
+      "release_day": "2022-02-15T23:00:00.000Z",
+      "release_version": "v2.5",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Ratana",
+          "Chinese": "Mingya Du (杜冥鸦)",
+          "Japanese": "Ayane Sakura (佐倉綾音)",
+          "Korean": "Moon Yoo-jeong (문유정)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Yae_Miko"
+    }
+  },
+  {
+    "result": {
+      "id": 48,
+      "name": "Ayato",
+      "title": [
+        "Pillar of Fortitude",
+        "Head of the Kamisato Clan"
+      ],
+      "real_name": "Kamisato Ayato",
+      "rarity": "5_star",
+      "weapon": "Sword",
+      "vision": "Hydro",
+      "model_type": "Tall male",
+      "birthday": "March 26th",
+      "constellation": "Cypressus Custos",
+      "region": [
+        "Inazuma"
+      ],
+      "affiliation": [
+        "Yashiro Commission",
+        "Kamisato Clan",
+        "Shuumatsuban"
+      ],
+      "special_dish": "Quiet Elegance",
+      "how_to_obtain": [
+        "Event Wish - Azure Excursion"
+      ],
+      "release_day": "2022-03-29T22:00:00.000Z",
+      "release_version": "v2.6",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Chris Hackney",
+          "Chinese": "Zhaolu (赵路)",
+          "Japanese": "Akira Ishida (石田 彰)",
+          "Korean": "Jang Min-hyeok (장민혁)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Kamisato_Ayato"
+    }
+  },
+  {
+    "result": {
+      "id": 49,
+      "name": "Yelan",
+      "title": [
+        "Valley Orchid",
+        "A mysterious person who claims to work for the Ministry of Civil Affairs"
+      ],
+      "rarity": "5_star",
+      "weapon": "Bow",
+      "vision": "Hydro",
+      "model_type": "Tall female",
+      "birthday": "April 20",
+      "constellation": "Umbrabilis Orchis",
+      "region": [
+        "Liyue"
+      ],
+      "affiliation": [
+        "Yanshang Teahouse",
+        "Ministry of Civil Affairs"
+      ],
+      "special_dish": "Dew-Dipped Shrimp",
+      "how_to_obtain": [
+        "Event Wish - Discerner of Enigmas"
+      ],
+      "release_day": "2022-05-30T22:00:00.000Z",
+      "release_version": "v2.7",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Laura Post",
+          "Chinese": "Xu Hui (徐慧)",
+          "Japanese": "Endou Aya (遠藤 綾)",
+          "Korean": "Min-a (민아)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Yelan"
+    }
+  },
+  {
+    "result": {
+      "id": 50,
+      "name": "Aloy",
+      "title": [
+        "Savior From Another World",
+        "Nora Huntress"
+      ],
+      "rarity": "5_star",
+      "weapon": "Bow",
+      "vision": "Cryo",
+      "model_type": "Medium female",
+      "birthday": "April 4",
+      "constellation": "Nora Fortis",
+      "region": [
+        "Unknown"
+      ],
+      "affiliation": [
+        "Wandering Heroine"
+      ],
+      "special_dish": "Satiety Gel",
+      "how_to_obtain": [
+        "Reach Adventure Rank 20 (between Versions 2.1-2.2 on PlayStation and Version 2.2 on all platforms)"
+      ],
+      "release_day": "2021-08-31T22:00:00.000Z",
+      "release_version": "v2.1",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Giselle Fernandez",
+          "Chinese": "Mufei (沐霏)",
+          "Japanese": "Ayahi Takagaki (高垣 彩陽)",
+          "Korean": "Jo Hyeon-jeong (조현정)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Aloy"
+    }
+  },
+  {
+    "result": {
+      "id": 51,
+      "name": "Kuki",
+      "title": [
+        "Mender of Tribulations",
+        "Deputy Leader of the Arataki Gang"
+      ],
+      "real_name": "Kuki Shinobu",
+      "rarity": "4_star",
+      "weapon": "Sword",
+      "vision": "Electro",
+      "model_type": "Medium female",
+      "birthday": "July 27",
+      "constellation": "Tribulatio Demptio",
+      "region": [
+        "Inazuma"
+      ],
+      "affiliation": [
+        "Arataki Gang"
+      ],
+      "special_dish": "Omurice Waltz",
+      "how_to_obtain": [
+        "Wishes"
+      ],
+      "release_day": "2022-06-20T22:00:00.000Z",
+      "release_version": "v2.7",
+      "category": "Playable Character",
+      "voice_actors": [
+        {
+          "English": "Kira Buckland",
+          "Chinese": "Yang Ning (杨凝)",
+          "Japanese": "Kaori Mizuhashi (水橋 かおり)",
+          "Korean": "Kim Yool (김율)"
+        }
+      ],
+      "wiki_url": "https://genshin-impact.fandom.com/wiki/Kuki_Shinobu"
+    }
+  }
+]
