@@ -37,7 +37,7 @@ export default function Chatbot() {
     
     try {
       // Send message to API
-      const response = await fetch('http://localhost:8000/api/chat', {
+      const response = await fetch('http://localhost:10000/api/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
