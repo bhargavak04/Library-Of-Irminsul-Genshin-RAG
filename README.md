@@ -28,6 +28,7 @@ Library of Irminsul is named after the sacred tree in Genshin Impact that contai
 
 ## 🛠️ Technologies Used
 
+### Backend
 - **Python**: Core programming language
 - **BeautifulSoup4**: For HTML parsing and web scraping
 - **Requests**: For making HTTP requests to the wiki
@@ -35,6 +36,14 @@ Library of Irminsul is named after the sacred tree in Genshin Impact that contai
 - **FAISS**: Vector database for efficient similarity search
 - **Groq**: LLM provider for fast inference
 - **HuggingFace Embeddings**: For text embedding generation
+- **FastAPI**: For creating the REST API
+
+### Frontend
+- **React**: UI library for building the web interface
+- **TypeScript**: Type-safe JavaScript for frontend development
+- **Vite**: Build tool and development server
+- **Tailwind CSS**: Utility-first CSS framework for styling
+- **React Router**: For client-side routing
 
 ## 📋 Data Sources
 
@@ -91,7 +100,8 @@ python Scraping_Scripts/scrape_general_pages.py
 
 ### Running the RAG System
 
-To start the interactive chat interface:
+#### Command Line Interface
+To start the interactive command-line chat interface:
 
 ```bash
 python main.py
@@ -101,6 +111,23 @@ This will:
 1. Load the scraped data
 2. Create or load the vector database
 3. Start an interactive chat session with Akasha (the AI assistant)
+
+#### Web Application
+To run the API server:
+
+```bash
+uvicorn app:app --reload
+```
+
+To run the frontend development server:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+This will start the web interface where you can interact with Akasha through a modern UI.
 
 ## 📊 Project Structure
 
@@ -115,7 +142,15 @@ This will:
 │   ├── characters.json         # Character details
 │   ├── lore.json               # General lore information
 │   └── wiki_sections.json      # Various wiki section content
-├── main.py                     # Main RAG implementation
+├── frontend/                   # React frontend application
+│   ├── src/                    # Source code
+│   │   ├── assets/             # Static assets
+│   │   ├── pages/              # Page components
+│   │   └── App.tsx             # Main application component
+│   ├── package.json            # Frontend dependencies
+│   └── vite.config.ts          # Vite configuration
+├── main.py                     # CLI RAG implementation
+├── app.py                      # FastAPI backend server
 ├── requirements.txt            # Project dependencies
 └── Genshin_Scrape_List.txt     # List of URLs to scrape
 ```
