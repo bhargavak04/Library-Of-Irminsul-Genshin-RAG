@@ -1,0 +1,149 @@
+@import '@fontsource/cinzel';
+@import '@fontsource/cormorant';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'HYWenHei 85W';
+  font-style: normal;
+  font-weight: normal;
+  src: local('HYWenHei 85W'), url('./assets/fonts/zhcn.woff') format('woff');
+  }
+
+:root {
+  --font-cinzel: 'Cinzel', serif;
+  --font-cormorant: 'Cormorant', serif;
+}
+
+body {
+  font-family: var(--font-cormorant);
+  background-color: #000;
+}
+
+.title {
+  font-family: var(--font-cinzel);
+}
+
+.bg-genshin {
+  background-image: url('./assets/images/BG_IMG2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.bg-chatbot{
+  background-image: url('./assets/images/BG_IMG1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.bg-about{
+  background-image: url('./assets/images/genshin_impact_battle_field_4k_hd_games.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.bg-genshin::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.6) 100%);
+}
+
+.nav-link {
+  @apply text-white text-lg hover:text-[#DEB887] transition-colors relative;
+  font-family: var(--font-cinzel);
+}
+
+.nav-link::after {
+  content: '';
+  @apply absolute left-0 bottom-0 w-0 h-0.5 bg-[#DEB887] transition-all duration-300;
+}
+
+.nav-link:hover::after {
+  @apply w-full;
+}
+
+.feature-card {
+  @apply bg-black/40 backdrop-blur-sm rounded-lg p-8 transition-all duration-300;
+  border: 1px solid rgba(222,184,135,0.3);
+}
+
+.feature-card:hover {
+  border-color: rgba(222,184,135,0.6);
+  box-shadow: 0 0 20px rgba(222,184,135,0.2);
+}
+
+.btn-primary {
+  @apply bg-[#DEB887] hover:bg-[#C4A484] text-white px-10 py-3 rounded-md transition-all duration-300 relative overflow-hidden;
+  font-family: var(--font-cinzel);
+}
+
+.btn-primary::before {
+  content: '';
+  @apply absolute inset-0 bg-white/20 transform -translate-x-full skew-x-12 transition-transform duration-700;
+}
+
+.btn-primary:hover::before {
+  @apply translate-x-full;
+}
+
+.decorated-title {
+  position: relative;
+  display: inline-block;
+  padding: 0 60px;
+}
+
+.decorated-title::before,
+.decorated-title::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #DEB887, transparent);
+}
+
+.decorated-title::before {
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.decorated-title::after {
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.section-title {
+  position: relative;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.section-title::before,
+.section-title::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  width: 200px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #DEB887, transparent);
+  transform: translateX(-50%);
+}
+
+.section-title::before {
+  top: 0;
+}
+
+.section-title::after {
+  bottom: 0;
+}
