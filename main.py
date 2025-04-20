@@ -26,6 +26,8 @@ groq_llm = ChatGroq(
 # ------------------------------------------
 # STEP 1: Load and Prepare Documents
 # ------------------------------------------
+
+
 def load_documents():
     files = [
         "data/character_lore.json",
@@ -36,68 +38,23 @@ def load_documents():
     docs = []
 
     for file in files:
-        with open(file, encoding="utf-8") as f:
-            data = json.load(f)
-
-        # Case 1: Files with a dict of objects keyed by name/id
-        if isinstance(data, dict) and all(isinstance(v, dict) for v in data.values()):
-            for key, val in data.items():
-                content_parts = [
-                    val.get("overview", ""),
-                    val.get("lore", ""),
-                    val.get("summary", "")
-                ]
-
-                # If it's a character-style object, extract details
-                if "result" in val:
-                    result = val["result"]
-                    content_parts.extend([
-                        f"Name: {result.get('name', '')}",
-                        f"Title: {', '.join(result.get('title', []))}",
-                        f"Real Name: {result.get('real_name', '')}",
-                        f"Rarity: {result.get('rarity', '')}",
-                        f"Weapon: {result.get('weapon', '')}",
-                        f"Vision: {result.get('vision', '')}",
-                        f"Birthday: {result.get('birthday', '')}",
-                        f"Region: {', '.join(result.get('region', []))}",
-                        f"Affiliation: {', '.join(result.get('affiliation', []))}",
-                        f"Special Dish: {result.get('special_dish', '')}",
-                        f"How to Obtain: {', '.join(result.get('how_to_obtain', []))}",
-                        f"Release Date: {result.get('release_day', '')}",
-                        f"Version: {result.get('release_version', '')}",
-                        f"Category: {result.get('category', '')}",
-                        f"Voice Actors: {json.dumps(result.get('voice_actors', []), ensure_ascii=False)}"
-                    ])
-                    url = result.get("wiki_url", "N/A")
-                else:
-                    url = val.get("url", "N/A")
-
-                content = "\n".join([c for c in content_parts if c.strip()])
-                if content:
-                    docs.append(Document(page_content=content.strip(), metadata={"source": key, "url": url}))
-
-        # Case 2: Single dictionary object like Teyvat lore
-        elif isinstance(data, dict):
-            content_parts = [
-                f"Title: {data.get('title', '')}",
-                f"Summary: {data.get('summary', '')}"
-            ]
-            content = "\n".join(content_parts).strip()
-            if content:
-                docs.append(Document(
-                    page_content=content,
-                    metadata={"source": data.get("title", "Unknown"), "url": data.get("url", "N/A")}
-                ))
-
-        # Case 3: List of entries (future-proofing)
-        elif isinstance(data, list):
-            for item in data:
-                if isinstance(item, dict):
-                    content = "\n".join([f"{k}: {v}" for k, v in item.items() if isinstance(v, str)])
-                    docs.append(Document(page_content=content.strip(), metadata={"source": "list_item", "url": "N/A"}))
-
+        try:
+            with open(file, encoding="utf-8") as f:
+                data = json.load(f)
+            
+            # Convert the JSON data to a string representation
+            if isinstance(data, dict) or isinstance(data, list):
+                # Process dictionary or list
+                content = json.dumps(data, ensure_ascii=False, indent=2)
+                docs.append(Document(page_content=content, metadata={}))
+            else:
+                # Handle primitive values
+                docs.append(Document(page_content=str(data), metadata={}))
+                
+        except Exception as e:
+            print(f"Error loading {file}: {e}")
+    
     return docs
-
 # ------------------------------------------
 # STEP 2: Chunking and Embedding
 # ------------------------------------------
@@ -115,14 +72,14 @@ def create_vector_store(docs):
 # ------------------------------------------
 def setup_modern_rag_chain(vectorstore, groq_llm):
     # Create a retriever
-    retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 8})
+    retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 5})
     
     # Define the system prompt
     system_template = """You are Akasha, a helpful and intelligent AI from Sumeru.
 You are an expert on everything related to the world of Teyvat in Genshin Impact.
 
 Your job is to answer user queries about characters, lore, locations, quests, and regions based on the context provided.
-Be immersive and concise when needed, but also provide detailed insights if asked.
+Be Immersive and concise when needed, but also provide detailed insights if asked.
 
 Here is the context information to help you answer:
 {context}

@@ -17,7 +17,7 @@ function Navbar() {
 
 function LandingPage() {
   return (
-    <div className="min-h-screen bg-genshin flex flex-col items-center justify-center relative HYWenHei 85W">
+    <div className="min-h-screen bg-genshin flex flex-col items-center justify-center relative">
       <div className="text-center space-y-8 max-w-4xl px-4 relative">
         <div className="mb-16">
           <div className="decorated-title mb-8">

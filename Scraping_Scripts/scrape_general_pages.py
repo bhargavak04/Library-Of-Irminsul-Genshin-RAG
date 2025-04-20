@@ -36,6 +36,16 @@ wiki_pages = [
     "https://genshin-impact.fandom.com/wiki/Manga",
     "https://genshin-impact.fandom.com/wiki/Book",
     "https://genshin-impact.fandom.com/wiki/Comics",
+    "https://genshin-impact.fandom.com/wiki/Archon_War",
+    "https://genshin-impact.fandom.com/wiki/Cataclysm",
+    "https://genshin-impact.fandom.com/wiki/Celestia",
+    "https://genshin-impact.fandom.com/wiki/Khaenri%27ah"
+    "https://genshin-impact.fandom.com/wiki/Delusion",
+    "https://genshin-impact.fandom.com/wiki/Seven_Sovereigns",
+    "https://genshin-impact.fandom.com/wiki/Heavenly_Principles",
+    "https://genshin-impact.fandom.com/wiki/Dragon",
+    "https://genshin-impact.fandom.com/wiki/Lore#World_History",
+
 
     # Quests
     "https://genshin-impact.fandom.com/wiki/Archon_Quest",
@@ -57,7 +67,9 @@ wiki_pages = [
 
     # Artifacts
     "https://genshin-impact.fandom.com/wiki/Artifact/Sets",
-    "https://genshin-impact.fandom.com/wiki/Artifact_EXP"
+    "https://genshin-impact.fandom.com/wiki/Artifact_EXP",
+
+  
 ]
 
 def extract_summary_from_url(url):

@@ -21,7 +21,8 @@ characters = [
     "Rosaria", "Sangonomiya_Kokomi", "Sayu", "Shenhe", "Shikanoin_Heizou", "Sucrose", "Tartaglia",
     "Thoma", "Tighnari", "Traveler", "Venti", "Wanderer", "Wriothesley", "Xiangling", "Xianyun",
     "Xiao", "Xingqiu", "Xinyan", "Yae_Miko", "Yanfei", "Yaoyao", "Yelan", "Yoimiya", "Yun_Jin",
-    "Zhongli"
+    "Zhongli","Clorinde","Emilie","Furina","Navia","Sigewinne","Wriothesley","Arlecchino","Escoffier",
+    "Chasca","Citlali","Iansan","Kachina","Kinich","Mavuika","Mualani","Ororon","Varesa","Xilonen","Ifa"
 ]
 
 def get_wiki_content(url):
