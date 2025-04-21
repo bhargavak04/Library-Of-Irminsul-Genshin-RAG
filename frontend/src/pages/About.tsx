@@ -20,7 +20,7 @@ export default function About() {
 
           <div className="bg-black/60 rounded-lg border border-[#DEB887]/30 p-8">
             <Users className="w-12 h-12 text-[#DEB887] mb-4" />
-            <h2 className="title text-2xl text-[#DEB887] mb-4">About Me (Bhargav Akshith)</h2>
+            <h2 className="title text-2xl text-[#DEB887] mb-4">About Me (Veeera Bappam)</h2>
             <p className="text-lg text-white/80">
               I am dedicated Genshin Impact enthusiast, researcher, and developer
               who share a passion for the game's storytelling and world-building. I work 
