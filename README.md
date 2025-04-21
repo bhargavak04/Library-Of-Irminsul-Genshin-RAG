@@ -59,7 +59,7 @@ This project primarily scrapes data from the [Genshin Impact Fandom Wiki](https:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/bhargavak04/Library-Of-Irminsul-Genshin-RAG
    cd Library_Of_Irminsul
    ```
 
