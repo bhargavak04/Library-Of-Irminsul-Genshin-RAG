@@ -253,6 +253,48 @@ def cleanup_old_sessions():
         gc.collect()
 
 # ------------------------------------------
+# User Preferences API Endpoints
+# ------------------------------------------
+import threading
+user_prefs_lock = threading.Lock()
+USER_PREFS_PATH = 'data/user_preferences.json'
+
+def load_user_prefs():
+    if not os.path.exists(USER_PREFS_PATH):
+        return {}
+    with open(USER_PREFS_PATH, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+def save_user_prefs(prefs):
+    with open(USER_PREFS_PATH, 'w', encoding='utf-8') as f:
+        json.dump(prefs, f, indent=2, ensure_ascii=False)
+
+class UserPreferences(BaseModel):
+    userId: str
+    favoriteCharacter: str
+    favoriteRegion: str
+    adventureRank: int
+    mainTeam: list[str]
+    preferredElement: str
+
+@app.get("/api/user/preferences/{user_id}")
+async def get_user_preferences(user_id: str):
+    with user_prefs_lock:
+        prefs = load_user_prefs()
+    user = prefs.get(user_id)
+    if not user:
+        raise HTTPException(status_code=404, detail="User preferences not found")
+    return user
+
+@app.post("/api/user/preferences")
+async def save_user_preferences(preferences: UserPreferences):
+    with user_prefs_lock:
+        prefs = load_user_prefs()
+        prefs[preferences.userId] = preferences.dict()
+        save_user_prefs(prefs)
+    return prefs[preferences.userId]
+
+# ------------------------------------------
 # API Endpoints
 # ------------------------------------------
 @app.get("/")

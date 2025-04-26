@@ -82,7 +82,7 @@ export default function Chatbot() {
   return (
     <div className="min-h-screen bg-chatbot bg-black/95 text-white p-8">
       <div className="max-w-4xl mx-auto pt-24">
-        <h1 className="title text-4xl text-[#DEB887] mb-8 text-center">Ask Akasha</h1>
+        <h1 className="title title-darkglow text-4xl text-[#DEB887] mb-8 text-center">Ask Akasha</h1>
         
         <div 
           ref={chatContainerRef}

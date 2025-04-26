@@ -1,0 +1,28 @@
+{
+  "user_2wGcOqrJv45nMKSjvVJZ2ZzVggm": {
+    "userId": "user_2wGcOqrJv45nMKSjvVJZ2ZzVggm",
+    "favoriteCharacter": "Raiden Shogun",
+    "favoriteRegion": "Fontaine",
+    "adventureRank": 56,
+    "mainTeam": [
+      "Nuevilette",
+      "Furina",
+      "Kazuha",
+      "Xilonen"
+    ],
+    "preferredElement": "Hydro"
+  },
+  "user_2wGdEpNBG91x8LgNvi9cG1mvVnt": {
+    "userId": "user_2wGdEpNBG91x8LgNvi9cG1mvVnt",
+    "favoriteCharacter": "Raiden Shogun",
+    "favoriteRegion": "Inazuma",
+    "adventureRank": 56,
+    "mainTeam": [
+      "Nuevilette",
+      "Furina",
+      "Kazuha",
+      "Xilonen"
+    ],
+    "preferredElement": "Hydro"
+  }
+}

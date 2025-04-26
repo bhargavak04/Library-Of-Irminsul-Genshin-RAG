@@ -24,8 +24,63 @@ body {
 
 .title {
   font-family: var(--font-cinzel);
+  text-shadow: 0 2px 12px rgba(0,0,0,0.7), 0 1px 0 #fff, 0 0.5px 0 #fff;
+}
+.title-glow {
+  text-shadow: 0 2px 16px #DEB887, 0 4px 24px #000, 0 1px 0 #fff;
+}
+.title-darkglow {
+  text-shadow: 0 2px 16px #000, 0 4px 32px #000, 0 1px 0 #fff;
 }
 
+/* Mobile Tab Bar */
+.tab-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(0,0,0,0.85);
+  border-top: 1px solid #DEB887;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 56px;
+  z-index: 50;
+}
+.tab-bar__item {
+  flex: 1;
+  padding: 8px 0;
+  color: #DEB887;
+  text-align: center;
+  font-size: 1.1rem;
+  font-family: var(--font-cinzel);
+  opacity: 0.7;
+  transition: color 0.2s, opacity 0.2s;
+}
+.tab-bar__active {
+  color: #fff;
+  opacity: 1;
+  border-top: 2px solid #DEB887;
+  background: rgba(222,184,135,0.08);
+}
+@media (min-width: 768px) {
+  .tab-bar { display: none; }
+}
+
+.bg-log {
+  background-image: url('./assets/images/LOG.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.bg-dboard {
+  background-image: url('./assets/images/CHAT.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
 .bg-genshin {
   background-image: url('./assets/images/BG_IMG2.png');
   background-size: cover;
@@ -42,7 +97,7 @@ body {
 }
 
 .bg-about{
-  background-image: url('./assets/images/genshin_impact_battle_field_4k_hd_games.jpg');
+  background-image: url('./assets/images/ABU_WP.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -60,18 +115,41 @@ body {
 }
 
 .nav-link {
-  @apply text-white text-lg hover:text-[#DEB887] transition-colors relative;
+  color: #DEB887;
   font-family: var(--font-cinzel);
+  font-size: 1.1rem;
+  text-shadow: 0 0 8px #fff, 0 0 16px #DEB88799;
+  transition: color 0.18s, text-shadow 0.18s;
+  opacity: 0.93;
+  font-weight: 600;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  position: relative;
 }
+
+.nav-link:hover, .nav-link:focus {
+  color: #FFD699;
+  text-shadow: 0 0 16px #fff, 0 0 32px #FFD699, 0 0 8px #DEB887;
+  opacity: 1;
+}
+
 
 .nav-link::after {
   content: '';
-  @apply absolute left-0 bottom-0 w-0 h-0.5 bg-[#DEB887] transition-all duration-300;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: #DEB887;
+  transition: all 0.3s;
 }
 
+
 .nav-link:hover::after {
-  @apply w-full;
+  width: 100%;
 }
+
 
 .feature-card {
   @apply bg-black/40 backdrop-blur-sm rounded-lg p-8 transition-all duration-300;

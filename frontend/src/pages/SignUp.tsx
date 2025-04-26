@@ -1,16 +1,16 @@
 import React from 'react';
-import { SignIn } from '@clerk/clerk-react';
+import { SignUp } from '@clerk/clerk-react';
 
-export default function Login() {
+export default function SignUpPage() {
   return (
     <div className="min-h-screen bg-black/95 text-white p-8 bg-log">
       <div className="max-w-md mx-auto pt-24">
         <h1 className="title title-glow text-4xl text-[#DEB887] mb-12 text-center">
-          Welcome Back
+          Join the Adventure
         </h1>
         
         <div className="bg-black/60 rounded-lg border border-[#DEB887]/30 p-8">
-          <SignIn 
+          <SignUp 
             appearance={{
               elements: {
                 formButtonPrimary: 'bg-[#DEB887] hover:bg-[#DEB887]/80 text-white',
@@ -30,9 +30,8 @@ export default function Login() {
               }
             }}
             routing="path"
-            path="/login"
-            redirectUrl="/chatbot"
-            signUpUrl="/login"
+            path="/sign-up"
+            redirectUrl="/preferences"
           />
         </div>
       </div>

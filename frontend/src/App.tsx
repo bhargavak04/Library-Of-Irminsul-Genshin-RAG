@@ -1,16 +1,34 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { MessageSquare, Search, User } from 'lucide-react';
+import { ClerkProvider, SignedIn, SignedOut, useUser, SignOutButton } from '@clerk/clerk-react';
 import Chatbot from './pages/Chatbot';
 import About from './pages/About';
 import Login from './pages/Login';
+import Dashboard from './pages/Dashboard';
+import SignUp from './pages/SignUp';
+import Preferences from './pages/Preferences';
+
+import { useNavigate } from 'react-router-dom';
 
 function Navbar() {
+  const { user } = useUser();
+  const navigate = useNavigate();
+
   return (
     <nav className="absolute top-0 w-full p-8 flex justify-end gap-12 z-10">
-      <Link to="/chatbot" className="nav-link">Chatbot</Link>
       <Link to="/about" className="nav-link">About Us</Link>
-      <Link to="/login" className="nav-link">Login</Link>
+      <SignedIn>
+        <Link to="/chatbot" className="nav-link">Chatbot</Link>
+        <Link to="/dashboard" className="nav-link">{user?.firstName || 'Dashboard'}</Link>
+        <SignOutButton signOutCallback={() => navigate('/') }>
+          <button className="nav-link">Logout</button>
+        </SignOutButton>
+      </SignedIn>
+      <SignedOut>
+        <Link to="/login" className="nav-link">Login</Link>
+        <Link to="/sign-up" className="nav-link">Sign Up</Link>
+      </SignedOut>
     </nav>
   );
 }
@@ -18,24 +36,27 @@ function Navbar() {
 function LandingPage() {
   return (
     <div className="min-h-screen bg-genshin flex flex-col items-center justify-center relative">
-      <div className="text-center space-y-8 max-w-4xl px-4 relative">
-        <div className="mb-16">
-          <div className="decorated-title mb-8">
-            <h1 className="title text-6xl text-white whitespace-nowrap" style={{ 
-              textShadow: '0 0 20px rgba(222,184,135,0.5), 0 0 40px rgba(222,184,135,0.3)' 
+
+      <div className="flex flex-col items-center justify-center flex-1 w-full pt-24 md:pt-36">
+        <div className="text-center space-y-8 max-w-4xl px-4 relative">
+          <div className="mb-12 md:mb-16">
+            <div className="decorated-title mb-8">
+              <h1 className="title text-6xl text-white whitespace-nowrap" style={{ 
+                textShadow: '0 0 20px rgba(0,0,0,0.7), 0 0 40px rgba(0,0,0,0.4)' 
+              }}>
+                Library of Irminsul
+              </h1>
+            </div>
+            <p className="text-3xl text-white/90" style={{ 
+              textShadow: '0 0 10px rgba(0,0,0,0.6)' 
             }}>
-              Library of Irminsul
-            </h1>
+              Your Genshin Lore Companion
+            </p>
           </div>
-          <p className="text-3xl text-white/90" style={{ 
-            textShadow: '0 0 10px rgba(255,255,255,0.5)' 
-          }}>
-            Your Genshin Lore Companion
-          </p>
+          <Link to="/chatbot" className="btn-primary inline-block text-xl tracking-wider mt-6">
+            Get Started
+          </Link>
         </div>
-        <Link to="/chatbot" className="btn-primary inline-block text-xl tracking-wider">
-          Get Started
-        </Link>
       </div>
       
       <div className="mt-40 relative w-full px-8">
@@ -69,16 +90,37 @@ function LandingPage() {
 }
 
 function App() {
+  if (!import.meta.env.VITE_CLERK_PUBLISHABLE_KEY) {
+    throw new Error('Missing Publishable Key');
+  }
+
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/chatbot" element={<Chatbot />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/login" element={<Login />} />
-      </Routes>
-    </Router>
+    <ClerkProvider publishableKey={import.meta.env.VITE_CLERK_PUBLISHABLE_KEY}>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/sign-up" element={<SignUp />} />
+          <Route path="/chatbot" element={
+            <SignedIn>
+              <Chatbot />
+            </SignedIn>
+          } />
+          <Route path="/dashboard" element={
+            <SignedIn>
+              <Dashboard />
+            </SignedIn>
+          } />
+          <Route path="/preferences" element={
+            <SignedIn>
+              <Preferences />
+            </SignedIn>
+          } />
+        </Routes>
+      </Router>
+    </ClerkProvider>
   );
 }
 
